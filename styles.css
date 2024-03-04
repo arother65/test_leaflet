@@ -1,0 +1,146 @@
+/* Stand: 03.03.2024 
+*/
+
+/* import Bootstrap: mime type OK, not usable in HTML file */
+/* @import "./node_modules/bootstrap/scss/bootstrap.scss";  */
+
+/**/
+body {
+    /* background-color: darkolivegreen; */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* border: 1px solid var(--bs-gray-200); */
+    border: 3px solid;
+    border-radius: .50rem
+}
+
+.header {
+    background-color: darkolivegreen;
+    color: aliceblue;
+}
+
+/* #map {
+    height: 180px;
+} */
+
+.map {
+    /* background-color: blueviolet; */
+    height: 300px;
+    /* width: 100px */
+}
+
+/* */
+button {
+    background-color: cornflowerblue;
+    color: aliceblue;
+
+    border: 1px solid;
+    border-radius: .50rem
+}
+
+/* Any button over which the user's pointer is hovering */
+button:hover {
+    background-color: black;
+    color: darkgoldenrod;
+}
+
+
+/* */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    /* justify-content: space-evenly; */
+
+    /* padding: 5px */
+    /* column-gap */
+    /* row-gap */
+    /* gap */
+
+    border: 1px solid;
+    border-color: red;
+    border-radius: .50rem
+}
+
+.grid-container-inner {
+    display: grid;
+    grid-template-columns: auto;
+    width: auto;
+
+    /* justify-content: space-evenly; */
+
+    /* padding: 5px */
+    /* column-gap */
+    /* row-gap */
+    /* gap */
+
+    /* border: 1px solid; */
+    /* border-color: darkred; */
+    /* border-radius: .50rem */
+}
+
+/* grid-item */
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    width: 700px;
+    padding: 5px;
+    font-size: 15px;
+    text-align: left;
+    border: 1px solid;
+    /* border-color: green; */
+}
+
+/* */
+.input {
+    background-color: lightgrey;
+}
+
+/* classes for the input-range */
+datalist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    writing-mode: vertical-lr;
+    width: 300px;
+    font-size: 12px;
+}
+
+option {
+    padding: 0;
+}
+
+input[type="range"] {
+    width: 300px;
+    margin: 10;
+}
+
+/* input[type="range"]:hover {
+    background-color: red;
+} */
+
+/* footer-tag */
+.footer {
+    background-color: darkslategrey;
+    color: ghostwhite
+}
+
+/* footer:hover {
+    background-color: lightslategrey;
+    color: darkgoldenrod
+} */
+
+.grid-container-footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: darkslategrey
+}
+
+.grid-item-footer {
+    color: ghostwhite
+}
+
+.hrefs {
+    text-align: left;
+    color: ghostwhite
+}
